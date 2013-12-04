@@ -17,6 +17,10 @@ body {
   text-align: center;
 }
 
+#profile-pic {
+  border-radius: 8em;
+}
+
 h1 {
   font-size: 5em;
 }
