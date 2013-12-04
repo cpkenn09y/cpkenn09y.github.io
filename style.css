@@ -18,6 +18,15 @@ body {
 }
 
 h1 {
+  font-size: 5em;
+}
+
+.icons {
+  font-size: 10em;
+}
+
+a {
+  text-decoration: none;
 }
 
 .projects {
