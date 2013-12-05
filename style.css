@@ -48,8 +48,13 @@ a {
 }
 
 .project-image {
+  width: 331;
 }
 
 #area-to-populate {
   margin: 0 auto;
+}
+
+li {
+  float: left;
 }
