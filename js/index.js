@@ -4,4 +4,8 @@ attachListeners = function() {
   })
 }
 
-$(document).ready(attachListeners)
+applicationSetUp = function() {
+  attachListeners()
+}
+
+$(document).ready(applicationSetUp)
