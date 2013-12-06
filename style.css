@@ -47,6 +47,19 @@ a {
 .project-image {
 }
 
+#nav-projects a {
+  border: 1px solid #ccc;
+  background: #fc0;
+  text-decoration: none;
+  margin: 0 8px;
+  padding: 5px;
+  border-radius: 20px
+}
+
+#nav-projects a.activeSlide {
+  background: #ea0
+}
+
 #area-to-populate {
   margin: 0 auto;
 }
