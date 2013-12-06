@@ -41,11 +41,12 @@ a {
   height: 100%;
   width: 25%;
 }
-ul {
+
+.projects ul {
   width: 95%;
 }
 
-li {
+.projects li {
   float: left;
 }
 
