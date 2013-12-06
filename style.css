@@ -35,16 +35,18 @@ a {
 }
 
 .projects {
-  margin: 0 auto;
-}
-
-.project-background {
-  display: inline-block;
 }
 
 a {
   height: 100%;
   width: 25%;
+}
+ul {
+  width: 95%;
+}
+
+li {
+  float: left;
 }
 
 .project-image {
