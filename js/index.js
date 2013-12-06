@@ -4,8 +4,15 @@ attachListeners = function() {
   })
 }
 
+instantiateCarousel = function() {
+  $('.carousel').carousel({
+    interval: 2000
+  })
+}
+
 applicationSetUp = function() {
   attachListeners()
+  instantiateCarousel()
 }
 
 $(document).ready(applicationSetUp)

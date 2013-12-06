@@ -1,0 +1,1 @@
+ABOUTME = '<p><ul><li>My name is Ken</li><li>I am a web developer</li><li>I enjoy teaching</li><li>Multi-colored pens and whiteboards are awesome</li><li>I love playing Ping Pong</li></ul></p>'
