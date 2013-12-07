@@ -19,15 +19,17 @@ body {
 
 #profile-pic {
   border-radius: 10em;
+  width: 8em;
+  height: auto;
   padding-top: 3em;
 }
 
 h1 {
-  font-size: 4.5em;
+  font-size: 2em;
 }
 
 .icons {
-  font-size: 10em;
+  font-size: 2em;
 }
 
 a {
