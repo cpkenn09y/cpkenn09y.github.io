@@ -1,9 +1,3 @@
-attachListeners = function() {
-  $('button#about-me').on('click', function() {
-    $('#area-to-populate').append(ABOUTME)
-  })
-}
-
 animateProjectImages = function() {
   $('ul.project-images').before("<div id='nav-projects'></div>").cycle({
     fx: 'shuffle',
@@ -15,7 +9,6 @@ animateProjectImages = function() {
 }
 
 setUpApplication = function() {
-  attachListeners()
   animateProjectImages()
 }
 
