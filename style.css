@@ -93,3 +93,9 @@ a {
 #spacing-bottom {
   height: 2em;
 }
+
+.contact-me p{
+  float: right;
+  color: #CCCCCC;
+  margin-left: 1.5em;
+}
