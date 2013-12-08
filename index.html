@@ -1,29 +1,104 @@
+<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="font-awesome-4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome-4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="normalize.css" rel="stylesheet">
 </head>
 <body>
   <div class="container">
     <div class='title'>
+      <img src="images/ken.jpeg" id='profile-pic'>
       <h1>Kenneth Yu</h1>
-      <a href="https://linkedin.com/in/codewithken"><i class="fa fa-linkedin-square fa-3x"></i></a>
-      <a href="https://github.com/cpkenn09y"><i class="fa fa-github-square fa-3x"></i></a>
+
+      <div class="icons">
+        <a href="https://linkedin.com/in/codewithken" title="Ken's LinkedIn Profile" target="_blank">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+        <a href="https://github.com/cpkenn09y" title="Ken's GitHub Profile" target="_blank">
+          <i class="fa fa-github-square"></i>
+        </a>
+        <a href="http://kenatdbc.tumblr.com/" title="Ken's Tumblr Profile" target="_blank">
+          <i class="fa fa-tumblr"></i>
+        </a>
+        <a href='mailto:kenyu@ucdavis.edu' title="Click to Email Me">
+          <i class='fa fa-envelope-o'></i>
+        </a>
+      </div>
+
     </div>
 
-    <div class="projects">
-      <div class='project-background'>
-        <a href="http://codewithnyan.com/">
-          <img src="http://i.imgur.com/x6K2Gqu.png" class="project-image">
-        </a>
-      </div>
-      <div class='project-background'>
-        <a href="http://tech2me.herokuapp.com/">
-          <img src="http://i.imgur.com/hRNuRXj.png" class="project-image">
-        </a>
+    <div id='about-me'>
+      <p>I am a web developer</p>
+      <p>I have experience developing both front-end and back-end applications</p>
+      <p>When put amongst a motivated team, I passionately build from dusk until dawn.</p>
+      <p>My needs: coffee, mentorship, culture, and ping pong</p>
+    </div>
+
+    <div id="project-wrapper">
+      <div id='projects'>
+        <ul>
+          <li>
+            <a href="http://codewithnyan.com/" target="_blank">
+              <img src="images/codewithnyan.png" class="project-image">
+            </a>
+            <p>CodeWithNyan is a simple programming language designed to teach kids basic programming principles such as pattern recognition, method chaining, and looping. Inspired by Turtle Logo.</p>
+          </li>
+
+          <li>
+            <a href="http://imnotyourtype.herokuapp.com/" target="_blank">
+              <img src="images/imnotyourtype.png" class="project-image">
+            </a>
+            <p>ImNotYourType is a fun javascript type racer. The boy says a says a cheesy pick up line and the girl runs away as you type. WPM, time-elapsed, and accuracy are calculated. Made after only two weeks of javascript education. Come Play!</p>
+          </li>
+
+          <li>
+            <a href="http://tech2me.herokuapp.com/" target="_blank">
+              <img src="images/tech2me.png" class="project-image">
+            </a>
+            <p>Tech2Me allows users to post up technical interview questions that can be answered by other members of the community. Inspired by StackOverflow.</p>
+          </li>
+
+          <li>
+            <a href="http://cpkenn09y.github.io/DynamicPostIts/" target="_blank">
+              <img src="images/dynamicpostits.png" class="project-image">
+            </a>
+            <p>DynamicPostIts is a for funsies mini-project that allows users to simply click on the screen to create a new post it. Post its are editable, draggable, deletable.</p>
+          </li>
+        </ul>
+
+        <div id="spacing-bottom"></div>
+
       </div>
     </div>
+
+  <div id="connect-with-me">
+
+    <div class="contact-me">
+      <a href="http://kenatdbc.tumblr.com/" title="Ken's Tumblr Profile" target="_blank">
+        <p>My Blog</p>
+      </a>
+    </div>
+
+    <div class="contact-me">
+      <a href="https://github.com/cpkenn09y" title="Ken's GitHub Profile" target="_blank">
+        <p>My GitHub</p>
+      </a>
+    </div>
+
+    <div class="contact-me">
+      <a href="https://linkedin.com/in/codewithken" title="Ken's LinkedIn Profile" target="_blank">
+        <p>Connect via LinkedIn</p>
+      </a>
+    </div>
+
+    <div class="contact-me">
+      <a href='mailto:kenyu@ucdavis.edu' title="Click to Email Me">
+        <p>Contact Me by Email</p>
+      </a>
+    </div>
+
   </div>
+
 </body>
 </html>
