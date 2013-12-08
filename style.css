@@ -6,6 +6,7 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: 'helvetica', 'arial', sans-serif;
+  background-color: #2d2d2d;
 }
 
 .container {
@@ -19,17 +20,35 @@ body {
 
 #profile-pic {
   border-radius: 10em;
-  width: 8em;
+  width: 10em;
   height: auto;
   padding-top: 3em;
 }
 
 h1 {
   font-size: 2em;
+  color: #CCCCCC;
 }
 
 .icons {
-  font-size: 2em;
+  font-size: 3em;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.6em;
+}
+
+.icons .fa {
+  color: aliceblue;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+
+.icons .fa:hover {
+  color: #639BF1;
+}
+
+#about-me {
+  text-align: center;
+  color: #CCCCCC;
 }
 
 a {
@@ -39,23 +58,25 @@ a {
 #project-wrapper {
   margin: 0 auto;
   width: 80%;
-  background-color: blue;
+  background-color: #003058;
 }
 
 #projects {
   margin: 0 auto;
   width: 60%;
-  background-color: red;
+  background-color: #7F909A;
 }
 
 .project-image {
   width: 300px;
+  margin-top: 2.4em;
 }
 
 #projects p {
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
   text-align: center;
+  padding-top: 0.75em;
 }
 
 #projects ul {
@@ -69,7 +90,12 @@ a {
   margin: 0 auto;
 }
 
+#spacing-bottom {
+  height: 2em;
+}
 
-#about-me {
-  text-align: center;
+.contact-me p{
+  float: right;
+  color: #CCCCCC;
+  margin-left: 1.5em;
 }
