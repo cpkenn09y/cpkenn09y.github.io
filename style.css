@@ -99,3 +99,7 @@ a {
   color: #CCCCCC;
   margin-left: 1.5em;
 }
+
+.contact-me p:hover {
+  color: #639BF1;
+}
