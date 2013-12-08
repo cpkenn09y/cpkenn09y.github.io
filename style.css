@@ -31,13 +31,19 @@ h1 {
 }
 
 .icons {
-  font-size: 2em;
+  font-size: 3em;
   border-bottom: 1px solid #444;
-  padding-bottom: 1.5em;
+  padding-bottom: 0.6em;
 }
 
-.fa {
+.icons .fa {
   color: aliceblue;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+}
+
+.icons .fa:hover {
+  color: #639BF1;
 }
 
 #about-me {
@@ -63,14 +69,14 @@ a {
 
 .project-image {
   width: 300px;
+  margin-top: 2.4em;
 }
 
 #projects p {
   width: 400px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 0.5em;
-  padding-bottom: 2em;
+  padding-top: 0.75em;
 }
 
 #projects ul {
@@ -82,4 +88,8 @@ a {
 #projects li {
   list-style: none;
   margin: 0 auto;
+}
+
+#spacing-bottom {
+  height: 2em;
 }
