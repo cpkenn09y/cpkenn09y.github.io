@@ -36,23 +36,37 @@ a {
   text-decoration: none;
 }
 
-.projects {
+#project-wrapper {
   margin: 0 auto;
+  width: 80%;
+  background-color: blue;
+}
+
+#projects {
+  margin: 0 auto;
+  width: 60%;
   background-color: red;
 }
 
-.project-images {
+.project-image {
   width: 300px;
-  padding: 0;
 }
 
-.projects p {
+#projects p {
   width: 300px;
   margin: 0 auto;
+  text-align: center;
 }
 
-.projects li {
+#projects ul {
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+#projects li {
   list-style: none;
+  margin: 0 auto;
 }
 
 
