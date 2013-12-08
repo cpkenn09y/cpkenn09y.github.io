@@ -36,25 +36,26 @@ a {
   text-decoration: none;
 }
 
-div #nav-projects {
-  padding-left: 7em;
+.projects {
+  margin: 0 auto;
+  background-color: red;
 }
 
-div .projects {
-  display: inline-block;
-  /*padding-left: 33.3%;*/
-  padding-top: 2%;
+.project-images {
+  width: 300px;
+  padding: 0;
 }
 
-#nav-projects a {
-  border: 1px solid #ccc;
-  background: #fc0;
-  text-decoration: none;
-  margin: 0 8px;
-  padding: 5px;
-  border-radius: 20px;
+.projects p {
+  width: 300px;
+  margin: 0 auto;
 }
 
-#nav-projects a.activeSlide {
-  background: #ea0
+.projects li {
+  list-style: none;
+}
+
+
+#about-me {
+  text-align: center;
 }
