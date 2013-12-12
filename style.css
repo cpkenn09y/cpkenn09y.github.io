@@ -103,3 +103,46 @@ a {
 .contact-me p:hover {
   color: #639BF1;
 }
+
+@media screen and (max-width: 1100px) {
+
+  .project-image {
+    width: 250px
+  }
+
+  #projects p {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .project-image {
+    max-width: 200px
+  }
+
+  #projects p {
+    width: 250px;
+  }
+
+  .contact-me p {
+    text-align: center;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .container {
+    width: 100%;
+  }
+  #projects {
+    width: 100%;
+    background-color: #7F909A;
+  }
+
+  .contact-me p {
+    text-align: center;
+    float: none;
+  }
+}
