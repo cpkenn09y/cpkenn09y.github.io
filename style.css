@@ -103,3 +103,25 @@ a {
 .contact-me p:hover {
   color: #639BF1;
 }
+
+@media screen and (max-width: 1100px) {
+
+  .project-image {
+    width: 250px
+  }
+
+  #projects p {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .project-image {
+    width: 200px
+  }
+
+  #projects p {
+    width: 250px;
+  }
+}
