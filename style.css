@@ -25,6 +25,10 @@ body {
   padding-top: 3em;
 }
 
+#profile-pic:hover {
+  opacity: 0.8;
+}
+
 h1 {
   font-size: 2em;
   color: #CCCCCC;
