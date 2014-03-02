@@ -72,6 +72,11 @@ a {
   margin-top: 2.4em;
 }
 
+.project-image:hover{
+  border-style: solid;
+  border-color: aquamarine;
+}
+
 #projects p {
   width: 450px;
   margin: 0 auto;
