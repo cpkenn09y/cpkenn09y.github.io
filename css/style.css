@@ -32,6 +32,15 @@ img#backbone {
   height: 20em;
 }
 
+.portfolio-text {
+  display: none;
+}
+
+#poop {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+}
+
 #skills {
   background: #7fbbda;
   padding: 50px 0;
