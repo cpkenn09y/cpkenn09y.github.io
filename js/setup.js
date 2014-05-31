@@ -24,9 +24,4 @@ $(document).ready(function() {
       }
     });
   });
-
-  $('.img-portfolio').on('click', function(event) {
-    event.preventDefault()
-    $('#pt-'+this.id).show().addClass('animated fadeInDown')
-  })
-})
+});
