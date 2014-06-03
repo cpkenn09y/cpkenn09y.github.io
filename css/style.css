@@ -18,6 +18,10 @@ p {
   font-size: 1.1em;
 }
 
+.header-icon {
+  font-size: 3.2em;
+}
+
 #header-text {
   text-shadow: 11px 11px 9px rgba(0, 0, 0, 0.75);
   color: steelblue;
