@@ -18,6 +18,17 @@ p {
   font-size: 1.1em;
 }
 
+#top {
+  background-image: url('../img/abstract_06.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .header-icon {
   font-size: 3.2em;
 }
@@ -36,25 +47,44 @@ img#backbone {
   height: 20em;
 }
 
+#about, #portfolio {
+  background-image: url('../img/textures/snow_01.jpg');
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#services {
+  background-color: steelblue;
+}
+
 .portfolio-text {
   -webkit-animation-duration: 3s;
   -moz-animation-duration: 3s;
 }
 
-#skills {
-  background: #7fbbda;
-  padding: 50px 0;
-  color: #ffffff;
+.callout {
+  background: url(../img/abstract_04.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-#hobbies {
-  background: #7fbbda;
+#skills, #hobbies {
   padding: 50px 0;
   color: #ffffff;
+  background-image: url('../img/textures/water_01_zoom.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .emphasized {
-  box-shadow: 0 0 1em 1em #ccc;
+  box-shadow: 0 0 1em 1em #443838;
 }
 
 .accented {
