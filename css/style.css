@@ -35,8 +35,11 @@ p {
 
 #header-text {
   text-shadow: 11px 11px 9px rgba(0, 0, 0, 0.75);
-  color: steelblue;
+  color: aliceblue;
   font-size: 9em;
+  -webkit-animation-duration: 1.8s;
+  -moz-animation-duration: 1.8s;
+  -o-animation-duration: 1.8s;
 }
 
 img#backbone {
@@ -54,12 +57,13 @@ img#backbone {
 }
 
 #services {
-  background-color: steelblue;
+  background-color: #36705B;
 }
 
 .portfolio-text {
   -webkit-animation-duration: 3s;
   -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
 }
 
 .callout {
@@ -68,6 +72,10 @@ img#backbone {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.call-to-action {
+  background-color: #36705B;
 }
 
 #skills, #hobbies {
@@ -83,10 +91,41 @@ img#backbone {
   background-size: cover;
 }
 
+.space-left {
+  margin: 1em;
+}
+
+.btn-lg {
+  border: 3px outset #2a6496;
+  border-radius: 0.6em;
+  -webkit-border-radius: 0.6em;
+  -moz-border-radius: 0.6em;
+  -o-border-radius: 0.6em;
+}
+
 .emphasized {
   box-shadow: 0 0 1em 1em #443838;
+  -webkit-box-shadow:: 0 0 1em 1em #443838;
+  -moz-box-shadow:: 0 0 1em 1em #443838;
+  -o-box-shadow:: 0 0 1em 1em #443838;
+}
+
+.text-shadowed {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.no-shadow {
+  text-shadow: none
 }
 
 .accented {
   text-shadow: 1px 1px 1px #ccc;
+}
+
+.yellow {
+  color: #D6FF00
+}
+
+.bottom-margin {
+  margin-bottom: 0.5em;
 }
