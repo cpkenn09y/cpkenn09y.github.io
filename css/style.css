@@ -1,0 +1,131 @@
+html {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Jockey One', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3.2em;
+}
+
+p, div {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+#top {
+  background-image: url('../img/abstract_06.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-icon {
+  font-size: 3.2em;
+}
+
+#header-text {
+  text-shadow: 11px 11px 9px rgba(0, 0, 0, 0.75);
+  color: aliceblue;
+  font-size: 9em;
+  -webkit-animation-duration: 1.8s;
+  -moz-animation-duration: 1.8s;
+  -o-animation-duration: 1.8s;
+}
+
+img#backbone {
+  width: 1.75em;
+}
+
+.img-portfolio {
+  height: 20em;
+}
+
+#about, #portfolio {
+  background-image: url('../img/textures/snow_01.jpg');
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#services {
+  background-color: #36705B;
+}
+
+.portfolio-text {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+}
+
+.callout {
+  background: url(../img/abstract_04.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.call-to-action {
+  background-color: #36705B;
+}
+
+#skills, #hobbies {
+  padding: 50px 0;
+  color: #ffffff;
+  background-image: url('../img/textures/water_01_zoom.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.space-left {
+  margin: 1em;
+}
+
+.btn-lg {
+  border: 3px outset #2a6496;
+  border-radius: 0.6em;
+  -webkit-border-radius: 0.6em;
+  -moz-border-radius: 0.6em;
+  -o-border-radius: 0.6em;
+}
+
+.emphasized {
+  box-shadow: 0 0 1em 1em #443838;
+  -webkit-box-shadow:: 0 0 1em 1em #443838;
+  -moz-box-shadow:: 0 0 1em 1em #443838;
+  -o-box-shadow:: 0 0 1em 1em #443838;
+}
+
+.text-shadowed {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.no-shadow {
+  text-shadow: none
+}
+
+.accented {
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+.yellow {
+  color: #D6FF00
+}
+
+.bottom-margin {
+  margin-bottom: 0.5em;
+}
