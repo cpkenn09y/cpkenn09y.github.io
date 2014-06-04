@@ -1,162 +1,414 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+
 <head>
-  <link rel="stylesheet" href="normalize.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="font-awesome-4.0.3/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My projects portfolio, contact me if interested.">
+  <meta name="keywords" content="web, developer, web developer, software, engineer, software engineer, san francisco, sf, front, end, frontend, front-end, full stack, full-stack, contract, freelance, contract, dev bootcamp, dbc, junior, experienced, professional">
+  <meta name="author" content="Kenneth Yu">
+
+  <title>Kenneth Yu - Web Developer/Software Engineer San Francisco (SF)</title>
+
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+  <link href="fonts/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="fonts/font-mfizz-1.2/font-mfizz.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-  <div class="container">
-    <div class='title'>
-      <a href="http://cpkenn09y.github.io/"><img src="images/ken.jpeg" id='profile-pic'></a>
-      <h1>Kenneth Yu</h1>
+
+  <!-- Side Menu -->
+  <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+      <li class="sidebar-brand"><a href="#">CodeWithKen</a></li>
+      <li><a href="#top">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <!-- /Side Menu -->
+
+  <!-- Full Page Image Header Area -->
+  <div id="top" class="header emphasized">
+    <div class="vert-text">
+      <h1 class="hide" id="header-text">Code with Ken</h1>
+      <h3>I build things using code.</h3>
+      <a href="#about" class="btn btn-default btn-lg bottom-margin">Learn More</a>
 
       <div class="icons">
         <a href="https://linkedin.com/in/codewithken" title="Ken's LinkedIn Profile" target="_blank">
-          <i class="fa fa-linkedin-square"></i>
+          <i class="fa fa-linkedin-square fa-2x yellow"></i>
         </a>
         <a href="https://github.com/cpkenn09y" title="Ken's GitHub Profile" target="_blank">
-          <i class="fa fa-github-square"></i>
+          <i class="fa fa-github-square fa-2x yellow"></i>
         </a>
         <a href="http://kenatdbc.tumblr.com/" title="Ken's Tumblr Profile" target="_blank">
-          <i class="fa fa-tumblr-square"></i>
+          <i class="fa fa-tumblr-square fa-2x yellow"></i>
         </a>
         <a href='mailto:kenyu@ucdavis.edu' title="Click to Email Me">
-          <i class='fa fa-envelope-o'></i>
+          <i class='fa fa-envelope-o fa-2x yellow'></i>
         </a>
       </div>
-
     </div>
+  </div>
+  <!-- /Full Page Image Header Area -->
 
-    <div id='about-me'>
-      <p>I am a web developer</p>
-      <p>I have experience developing both front-end and back-end applications</p>
-      <p>When put amongst a motivated team, I passionately build from dusk until dawn.</p>
-      <p>My needs: coffee, mentorship, culture, and ping pong</p>
+  <!-- Intro -->
+  <div id="about" class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <i class="fa fa-user header-icon"></i>
+          <h1>About Me</h1>
+          <p class="lead">My name is Kenneth Yu. I am a software engineer with an emphasis on web technologies. When put amongst a motivated team, I passionately build from dusk until dawn.
+          </br>
+          </br>
+          My needs: coffee, mentorship, culture, and ping pong
+          </p>
+        </div>
+      </div>
     </div>
+  </div>
+  <!-- /Intro -->
 
-    <div id="project-wrapper">
-      <div id='projects'>
-        <ul>
+  <!-- Services -->
+  <div id="services" class="services emphasized text-shadowed">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+          <i class="fa fa-university header-icon"></i>
+          <h1>My Specialties</h1>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <div class="service-item">
+            <i class="service-icon fa icon-ruby"></i>
+            <h3>Ruby</h3>
+            <p>I take pride in the code that I write and have written a multitude of Ruby applications that solve complex algorithmic problems. I constantly strive to write high quality, object-oriented code.</p>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="service-item">
+            <i class="service-icon fa icon-ruby-on-rails-alt"></i>
+            <h3>Ruby on Rails</h3>
+            <p>I am experienced in full-stack Ruby on Rails development; I have created everything ranging from models, migrations, views, partials, routes, and controllers.</p>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="service-item">
+            <i class="service-icon fa icon-javascript"></i>
+            <h3>Javascript</h3>
+            <p>I thoroughly enjoy creating custom interfaces by leveraging Javascript's ability to manipulate the DOM. Javascript makes me feel like a wizard! I am currently delving deeper into Backbone.js and Node.js</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Services -->
 
-          <li>
-            <a href="http://cpkenn09y.github.io/ConwaysGameOfLifeJS" target="_blank">
-              <img src="images/conwaysgameoflife.png" class="project-image">
+  <!-- Callout -->
+  <div class="callout">
+    <div class="vert-text">
+      <h1>Lets collaborate!</h1>
+    </div>
+  </div>
+  <!-- /Callout -->
+
+  <!-- Portfolio -->
+  <div id="portfolio" class="portfolio">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <i class="fa fa-laptop header-icon"></i>
+            <h1>Portfolio</h1>
+            <hr>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 col-md-offset-1 text-center">
+          <div class="portfolio-item">
+            <a href="#">
+              <img class="img-portfolio img-responsive" src="img/projects/conwaysgameoflife.png" id="1">
             </a>
-            <p>
-              My implementation of the classic coding challenge, Conway's Game of Life! For those of you unfamiliar with the rules associated, I recommend watching the following <a href="http://www.youtube.com/watch?v=CgOcEZinQ2I" target="_blank">video</a>.
+            <h4>Conway's Game of Javascript Life</h4>
+
+            <div class="portfolio-text hide" id="pt-1">
+              <p>My implementation of the classic coding challenge, Conway's Game of Life! For those of you unfamiliar with the rules associated, I recommend watching the following <a href="http://www.youtube.com/watch?v=CgOcEZinQ2I" target="_blank">video</a>.
               </br>
               </br>
               All about that javascript life. Thus, I embarked to tackle the challenge in javascript.
-            </p>
+              </p>
+              <p class='repo-link'>
+                <a href="https://github.com/cpkenn09y/ConwaysGameOfLifeJS" target="_blank">[Code on GitHub]</a>
+                </br>
+                <a href="http://cpkenn09y.github.io/ConwaysGameOfLifeJS/" target="_blank">[The Live Project]</a>
+                </br>
+              </p>
+            </div>
 
-            <p class='repo-link'><a href="https://github.com/cpkenn09y/ConwaysGameOfLifeJS">[Link to the above Project's Git Repo]</a></p>
-          </li>
-
-          <li>
-            <a href="http://bootietracker.herokuapp.com/" target="_blank">
-              <img src="images/bootietracker.png" class="project-image">
+          </div>
+        </div>
+        <div class="col-md-5 text-center">
+          <div class="portfolio-item">
+            <a href="#">
+              <img class="img-portfolio img-responsive" src="img/projects/bootietracker.png" id="2">
             </a>
-            <p>
-              BootieTracker is a mapping of DBC alumni; it was created to enable DBC students and alumni to easily see who is within their vicinity and get in contact with each other.
-              </br>
-              </br>
-              We created this application at the Dev Bootcamp Alumni Holiday Hackathon and won the Golden Boot Award - for best product that improves Socrates. This project was completed in one day, by our four person team: using Ruby on Rails, Javascript, jQuery, AJAX, and many many APIs.
-            </p>
+            <h4>BootieTracker</h4>
 
-            <p class='repo-link'><a href="https://github.com/cpkenn09y/Booty-Tracker">[Link to the above Project's Git Repo]</a></p>
-          </li>
+            <div class="portfolio-text hide" id="pt-2">
+              <p>
+                BootieTracker is a mapping of DBC alumni; it was created to enable DBC students and alumni to easily see who is within their vicinity and get in contact with each other.
+                </br>
+                </br>
+                We created this application at the Dev Bootcamp Alumni Holiday Hackathon and won the Golden Boot Award - for best product that improves Socrates. This project was completed in one day, by our four person team: using Ruby on Rails, Javascript, jQuery, AJAX, and many many APIs.
+              </p>
 
-          <li>
-            <a href="http://codewithnyan.com/" target="_blank">
-              <img src="images/codewithnyan.png" class="project-image">
+              <p class='repo-link'>
+                <a href="https://github.com/cpkenn09y/Booty-Tracker" target="_blank">[Code on GitHub]</a>
+                </br>
+                <a href="http://bootietracker.herokuapp.com/" target="_blank">[The Live Project]</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-5 col-md-offset-1 text-center">
+          <div class="portfolio-item">
+            <a href="#">
+              <img class="img-portfolio img-responsive" src="img/projects/codewithnyan.png" id="3">
             </a>
-            <p>
-              Codewithnyan.com is an embedded, domain-specific language we created that teaches kids fundamental programming concepts like pattern recognition, method chaining, and looping: inspired by the classic Turtle Logo.
-              </br>
-              </br>
-              Kids type commands into the command line and immediately see the results drawn on the canvas.This project was completed in 7 days, by our three person team - using JavaScript, AJAX, HTML5, CSS3, and Imgur API.
-            </p>
+            <h4>CodeWithNyan</h4>
 
-            <p class='repo-link'><a href="https://github.com/cpkenn09y/CodeWithNyan">[Link to the above Project's Git Repo]</a></p>
-          </li>
+            <div class="portfolio-text hide" id="pt-3">
+              <p>
+                Codewithnyan.com is an embedded, domain-specific language we created that teaches kids fundamental programming concepts like pattern recognition, method chaining, and looping: inspired by the classic Turtle Logo.
+                </br>
+                </br>
+                Kids type commands into the command line and immediately see the results drawn on the canvas.This project was completed in 7 days, by our three person team - using JavaScript, AJAX, HTML5, CSS3, and Imgur API.
+              </p>
 
-          <li>
-            <a href="http://cpkenn09y.github.io/MyCatalogMaker/" target="_blank">
-              <img src="images/mycatalogmaker.png" class="project-image">
+              <p class='repo-link'>
+                <a href="https://github.com/cpkenn09y/CodeWithNyan" target="_blank">[Code on GitHub]</a>
+                </br>
+                <a href="http://codewithnyan.com/" target="_blank">[The Live Project]</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-5 text-center">
+          <div class="portfolio-item">
+            <a href="#">
+              <img class="img-portfolio img-responsive" src="img/projects/imnotyourtype.png" id="4">
             </a>
-            <p>
-              MyCatalogMaker is a simple catalog maker that I made for a coding challenge. I spent two days teaching myself Backbone.js, Firebase, and strategizing - followed by one full day coding this app.
-              </br>
-              </br>
-              Backbone.js and Firebase were two technologies I had never previously used. Therefore, I had to teach myself multiple technologies that weekend. Here is the outcome. Feel free to add some fun items that we can "sell" in our catalog :)
-            </p>
+            <h4>ImNotYourType</h4>
 
-            <p class='repo-link'><a href="https://github.com/cpkenn09y/MyCatalogMaker">[Link to the above Project's Git Repo]</a></p>
-          </li>
+            <div class="portfolio-text hide" id="pt-4">
+              <p>
+                ImNotYourType is a fun type racer built using Sinatra and Javascript. The boy says cheesy pick up lines and the girl runs away as you type.
+                </br>
+                </br>
+                WPM, time-elapsed, and accuracy are calculated. Made after only two weeks of javascript knowledge. Come Play!
+              </p>
 
-          <li>
-            <a href="http://tech2me.herokuapp.com/" target="_blank">
-              <img src="images/tech2me.png" class="project-image">
+              <p class='repo-link'>
+                <a href="https://github.com/cpkenn09y/ImNotYourType" target="_blank">[Code on GitHub]</a>
+                </br>
+                <a href="http://imnotyourtype.herokuapp.com/" target="_blank">[The Live Project]</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <div class="portfolio-item">
+            <a href="#">
+              <img class="img-portfolio img-responsive" src="img/projects/tech2me.png" id="6">
             </a>
-            <p>
-              Tech2Me allows users to post up technical interview questions that can be answered by other members of the community: inspired by StackOverflow.
-              </br>
-              </br>
-              Tech2Me was built using Ruby on Rails, PostgreSQL, AJAX, jQuery, Rspec, and Capybara.
-            </p>
+            <h4>Tech2Me</h4>
 
-            <p class='repo-link'><a href="https://github.com/cpkenn09y/Tech2Me">[Link to the above Project's Git Repo]</a></p>
-          </li>
+            <div class="portfolio-text hide" id="pt-6">
+              <p>
+                Tech2Me allows users to post up technical interview questions that can be answered by other members of the community: inspired by StackOverflow.
+                </br>
+                </br>
+                Tech2Me was built using Ruby on Rails, PostgreSQL, AJAX, jQuery, Rspec, and Capybara.
+              </p>
 
-          <li>
-            <a href="http://imnotyourtype.herokuapp.com/" target="_blank">
-              <img src="images/imnotyourtype.png" class="project-image">
-            </a>
-            <p>
-              ImNotYourType is a fun type racer built using Sinatra and Javascript. The boy says cheesy pick up lines and the girl runs away as you type.
-              </br>
-              </br>
-              WPM, time-elapsed, and accuracy are calculated. Made after only two weeks of javascript knowledge. Come Play!
-            </p>
+              <p class='repo-link'>
+                <a href="https://github.com/cpkenn09y/Tech2Me" target="_blank">[Code on GitHub]</a>
+                </br>
+                <a href="http://tech2me.herokuapp.com/" target="_blank">[The Live Project]</a>
+              </p>
+            </div>
 
-            <p class='repo-link'><a href="https://github.com/cpkenn09y/ImNotYourType">[Link to the above Project's Git Repo]</a></p>
-          </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Portfolio -->
 
-        </ul>
+  <!-- Call to Action -->
+  <div class="call-to-action emphasized">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <h2 class="text-shadowed">The best way to contact me is via email.</h2>
+          <a href='mailto:kenyu@ucdavis.edu' class="btn btn-lg btn-default" title="Click to Email Me">Email Me!</a>
+          <a href="#skills" class="btn btn-lg btn-default">See Skills!</a>
+          <a href="#hobbies" class="btn btn-lg btn-default">Hobbies</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Call to Action -->
 
-        <div id="spacing-bottom"></div>
+  <!-- Skills -->
 
+  <div id="skills" class="skills emphasized text-shadowed">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+          <i class="fa fa-magic header-icon"></i>
+          <h1>Technical Skills</h1>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-5 col-md-offset-1 text-center">
+          <h2>Languages</h2>
+          <p class="skill">* Ruby</p>
+          <p class="skill">* Javascript</p>
+          <p class="skill">* HTML5</p>
+          <p class="skill">* CSS3</p>
+        </div>
+        <div class="col-md-5 text-center">
+          <h2>Frameworks</h2>
+          <p class="skill">* Ruby on Rails</p>
+          <p class="skill">* Backbone.js</p>
+          <p class="skill">* Node.js</p>
+          <p class="skill">* Bootstrap</p>
+        </div>
+
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+          <h1>Relevant Skills</h1>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 col-md-offset-1 text-center">
+          <h3>Utility</h3>
+          <p>* Git</p>
+          <p>* jQuery</p>
+          <p>* AJAX</p>
+          <p>* Agile Development</p>
+          <p>* Object Oriented Programming</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <h3>Databases</h3>
+          <p>* Firebase</p>
+          <p>* PostgreSQL</p>
+          <p>* Sqlite3</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <h3>Test Driven Development</h3>
+          <p>* Capybara Testing</p>
+          <p>* Jasmine Testing</p>
+          <p>* RSpec Testing</p>
+        </div>
       </div>
     </div>
 
-  <div id="connect-with-me">
+  <div id="hobbies">
+    <div class="container" id="hobbies">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+          <i class="fa fa-paper-plane-o header-icon"></i>
+          <h1>Hobbies</h1>
+          <hr>
+        </div>
+      </div>
 
-    <div class="contact-me">
-      <a href="http://kenatdbc.tumblr.com/" title="Ken's Tumblr Profile" target="_blank">
-        <p>My Blog</p>
-      </a>
-    </div>
-
-    <div class="contact-me">
-      <a href="https://github.com/cpkenn09y" title="Ken's GitHub Profile" target="_blank">
-        <p>My GitHub</p>
-      </a>
-    </div>
-
-    <div class="contact-me">
-      <a href="https://linkedin.com/in/codewithken" title="Ken's LinkedIn Profile" target="_blank">
-        <p>Connect via LinkedIn</p>
-      </a>
-    </div>
-
-    <div class="contact-me">
-      <a href='mailto:kenyu@ucdavis.edu' title="Click to Email Me">
-        <p>Contact Me by Email</p>
-      </a>
+      <div class="row">
+        <div class="col-md-5 col-md-offset-1 text-center">
+          <p>* Gaming</p>
+          <p>* Audiobooks</p>
+          <p>* Racket Sports</p>
+          <p>* Jiu Jitsu</p>
+          <p>* Coffee</p>
+        </div>
+        <div class="col-md-5 text-center">
+          <p>* Board Games</p>
+          <p>* Beer</p>
+          <p>* Comedy</p>
+          <p>* Hackathons</p>
+          <p>* Coding from Dusk til Dawn</p>
+        </div>
+      </div>
     </div>
 
   </div>
 
+  <!-- /Skills -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <h1>Contact Me / Learn More</h1>
+          <div class="icons" id="contact">
+            <a href='mailto:kenyu@ucdavis.edu' class="space-left no-shadow yellow" title="Click to Email Me">
+              <i class='fa fa-envelope-o fa-4x'></i>
+            </a>
+            <a href="https://linkedin.com/in/codewithken" class="space-left no-shadow yellow" title="Ken's LinkedIn Profile" target="_blank">
+              <i class="fa fa-linkedin-square fa-4x"></i>
+            </a>
+            <a href="https://github.com/cpkenn09y" class="space-left no-shadow yellow" title="Ken's GitHub Profile" target="_blank">
+              <i class="fa fa-github-square fa-4x"></i>
+            </a>
+            <a href="http://kenatdbc.tumblr.com/" class="space-left no-shadow yellow" title="Ken's Tumblr Profile" target="_blank">
+              <i class="fa fa-tumblr-square fa-4x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row col-md-6 col-md-offset-3 text-center">
+        <hr>
+        <p>Copyright &copy; Kenneth Yu 2013</p>
+      </div>
+    </div>
+  </footer>
+  <!-- /Footer -->
+
+  <!-- JavaScript -->
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/setup.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
+
 </html>
