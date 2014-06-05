@@ -129,3 +129,19 @@ img#backbone {
 .bottom-margin {
   margin-bottom: 0.5em;
 }
+
+@media screen and (max-width: 800px) {
+
+  #header-text {
+    font-size: 8em;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  #header-text {
+    font-size: 7em;
+  }
+
+}
